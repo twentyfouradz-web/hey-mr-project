@@ -1,0 +1,25 @@
+HEY... MR — UPDATED PROJECT REQUIREMENTS
+
+1. Admin Only Ads Posting
+   - Only authenticated Admin can create, edit, publish, pause, or delete advertisements.
+   - Public clients must not have a working post-ad submission route or direct database write access.
+   - Admin API routes remain protected by Admin authentication.
+
+2. Client Browsing and Search
+   - Public clients can browse published advertisements.
+   - Public clients can search/filter advertisements and open listing details.
+   - Public clients cannot create or manage advertisements.
+
+3. Contact Methods
+   - Listing cards expose Call and WhatsApp only.
+   - Contact buttons remain controlled by Admin website settings.
+   - No internal Chat Messenger contact option is offered.
+
+4. Chat Messenger Removed
+   - Chat Messenger modal and its client-side demo handlers are removed from the homepage.
+   - Chat Messenger API inbox/reply endpoints are removed from the Worker.
+   - Existing historical migration is retained for compatibility; it is not used by the current application.
+
+5. Preserve Existing Project
+   - Keep existing homepage design and existing non-chat features.
+   - Keep Admin Panel, categories, districts, form builder, VIP settings, D1 and R2 integrations.

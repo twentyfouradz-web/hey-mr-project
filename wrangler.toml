@@ -1,0 +1,17 @@
+name = "hey-mr-project"
+main = "workers/index.js"
+compatibility_date = "2026-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "hey-mr-database"
+database_id = "7ddce70c-e849-44b7-855c-a40a3d0af286"
+migrations_dir = "migrations"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[[r2_buckets]]
+binding = "IMAGES"
+bucket_name = "hey-mr-images"
